@@ -7,7 +7,11 @@
     "dev": "node index.js"
   },
   "dependencies": {
+    "chance": "^1.1.6",
+    "cron": "^1.8.2",
     "dotenv": "^8.2.0",
-    "graphql-request": "^2.0.0"
+    "graphql-request": "1.8.2",
+    "log4js": "^6.3.0",
+    "shortid": "^2.2.15"
   }
 }

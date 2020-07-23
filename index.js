@@ -1,5 +1,2 @@
-const dotenv = require('dotenv')
-
-dotenv.config()
-
-console.log(process.env.PULI_URL)
+require('dotenv').config()
+require('./worker')
