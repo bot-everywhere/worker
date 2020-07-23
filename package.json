@@ -1,0 +1,13 @@
+{
+  "name": "cosu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "graphql-request": "^2.0.0"
+  }
+}
