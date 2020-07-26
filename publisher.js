@@ -33,5 +33,18 @@ module.exports = {
       }
     `
     return endPoint.request(mutation)
+  },
+  jobs(first = 10) {
+    const query = `
+      query {
+        jobs(first: ${first}) {
+          id
+          action
+          payload
+          timeout
+        }
+      }
+    `
+    return endPoint.request(query)
   }
 }
